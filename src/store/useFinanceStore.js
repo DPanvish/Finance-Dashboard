@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { initialTransactions } from '../src/data/mockData';
+import { initialTransactions } from "../data/mockdata"
 
 const useFinanceStore = create((set) => ({
   // --- State ---
