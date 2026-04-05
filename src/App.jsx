@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from './components/Layout';
 import SummaryCards from './components/SummaryCards';
+import DashboardCharts from './components/DashboardCharts'; 
+import Insights from './components/Insights';             
 
 function App() {
   return (
@@ -12,14 +14,16 @@ function App() {
         </div>
         
         <SummaryCards />
-
-        {/* Placeholders for our next components */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-96 border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center text-gray-400">
-           [ Charts will go here ]
-        </div>
         
+        {/* Added Insights */}
+        <Insights />
+        
+        {/* Added Charts */}
+        <DashboardCharts />
+
+        {/* This is the final placeholder we will tackle next */}
         <div className="h-64 border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center text-gray-400">
-           [ Transactions List will go here ]
+           [ Transactions List & Admin Controls will go here ]
         </div>
       </div>
     </Layout>
