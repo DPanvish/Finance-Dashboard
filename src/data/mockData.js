@@ -1,0 +1,50 @@
+export const initialTransactions = [
+  {
+    id: "1",
+    date: "2026-04-01",
+    amount: 5200,
+    category: "Salary",
+    type: "income",
+    description: "Tech Corp Monthly Salary",
+  },
+  {
+    id: "2",
+    date: "2026-04-02",
+    amount: 1500,
+    category: "Housing",
+    type: "expense",
+    description: "Monthly Rent",
+  },
+  {
+    id: "3",
+    date: "2026-04-03",
+    amount: 120,
+    category: "Utilities",
+    type: "expense",
+    description: "Electric Bill",
+  },
+  {
+    id: "4",
+    date: "2026-04-04",
+    amount: 450,
+    category: "Food & Dining",
+    type: "expense",
+    description: "Groceries & Weekly Eating Out",
+  },
+  {
+    id: "5",
+    date: "2026-04-05",
+    amount: 800,
+    category: "Freelance",
+    type: "income",
+    description: "Web Dev Contract",
+  },
+  {
+    id: "6",
+    date: "2026-04-06",
+    amount: 60,
+    category: "Entertainment",
+    type: "expense",
+    description: "Movie Tickets",
+  }
+];
