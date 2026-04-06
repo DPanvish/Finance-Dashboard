@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from './components/Layout';
 import SummaryCards from './components/SummaryCards';
-import DashboardCharts from './components/DashboardCharts'; 
-import Insights from './components/Insights';             
+import DashboardCharts from './components/DashboardCharts';
+import Insights from './components/Insights';
+import TransactionList from './components/TransactionList'; 
 
 function App() {
   return (
@@ -14,17 +15,9 @@ function App() {
         </div>
         
         <SummaryCards />
-        
-        {/* Added Insights */}
         <Insights />
-        
-        {/* Added Charts */}
         <DashboardCharts />
-
-        {/* This is the final placeholder we will tackle next */}
-        <div className="h-64 border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center text-gray-400">
-           [ Transactions List & Admin Controls will go here ]
-        </div>
+        <TransactionList />
       </div>
     </Layout>
   );
